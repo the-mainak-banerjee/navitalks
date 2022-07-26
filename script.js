@@ -2,7 +2,7 @@ const userInput = document.querySelector('.user-input')
 const btn = document.querySelector('.btn')
 const outputBox = document.querySelector('.output-box')
 
-const serverUrl ='https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json'
+const serverUrl ='https://api.funtranslations.com/translate/navi.json'
 
 const generateTranslationUrl = (input) => `${serverUrl}?text=${input}`
 
